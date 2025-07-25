@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "640732904234",
+    "project_id": "socialmediaapp-bf5d5",
+    "storage_bucket": "socialmediaapp-bf5d5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640732904234:android:1100951bc689660591fc53",
+        "android_client_info": {
+          "package_name": "com.example.internshiptask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5lHID7mF3_G0Ai4XVLB6sChdVoUwajDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

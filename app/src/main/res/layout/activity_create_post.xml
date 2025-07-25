@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Heading -->
+        <TextView
+            android:id="@+id/postHeading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/calistoga"
+            android:paddingBottom="8dp"
+            android:text="@string/new_post"
+            android:textColor="@color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!-- Post Content -->
+        <EditText
+            android:id="@+id/postContentEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/write_your_post"
+            android:minHeight="100dp"
+            android:fontFamily="@font/alkatra_semibold"
+            android:gravity="top"
+            android:textSize="20sp"
+            android:background="@drawable/edittext_bg"
+            android:padding="8dp" />
+
+        <!-- Image Preview -->
+        <ImageView
+            android:id="@+id/postImageView"
+            android:layout_width="match_parent"
+            android:layout_height="249dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="20dp"
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/selected_post_image"
+            android:src="@drawable/image_placeholder" />
+
+        <!-- Select Image Button -->
+        <Button
+            android:id="@+id/selectImageBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_image"
+            android:textColor="@android:color/white"
+            android:fontFamily="@font/agbalumo"
+            android:textSize="18sp"
+            android:background="@drawable/btn_gradient"
+            app:backgroundTint="@null" />
+
+        <!-- Upload Post Button -->
+        <Button
+            android:id="@+id/uploadPostBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_post"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/btn_gradient"
+            android:fontFamily="@font/agbalumo"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            app:backgroundTint="@null" />
+
+    </LinearLayout>
+</ScrollView>

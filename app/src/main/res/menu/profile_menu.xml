@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_chat"
+        android:title="@string/chat2"
+        android:icon="@drawable/send_11924745"
+        app:showAsAction="always" />
+
+</menu>

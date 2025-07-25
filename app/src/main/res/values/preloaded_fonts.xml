@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/adlam_display</item>
+        <item>@font/agbalumo</item>
+        <item>@font/aleo</item>
+        <item>@font/alkalami</item>
+        <item>@font/alkatra_semibold</item>
+        <item>@font/bangers</item>
+        <item>@font/calistoga</item>
+        <item>@font/cambo</item>
+    </array>
+</resources>

@@ -1,0 +1,134 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="6dp"
+    android:backgroundTint="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <!-- Profile + Username Row -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="8dp">
+
+            <ImageView
+                android:id="@+id/postUserImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:scaleType="centerCrop"
+                android:background="@drawable/circle_bg"
+                android:padding="2dp"
+                android:layout_marginEnd="10dp"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/postUserName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calistoga"
+                android:text="@string/itemuser_name"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Post Content -->
+        <TextView
+            android:id="@+id/postContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/post_content_goes_here"
+            android:textSize="16sp"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/agbalumo" />
+
+        <!-- Post Image -->
+        <ImageView
+            android:id="@+id/postImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="8dp"
+            android:visibility="gone" />
+
+        <!-- Timestamp -->
+        <TextView
+            android:id="@+id/postTimestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_hours_agopost"
+            android:textSize="12sp"
+            android:textColor="#777"
+            android:layout_marginTop="4dp"
+            android:fontFamily="@font/calistoga" />
+
+        <!-- Actions -->
+        <LinearLayout
+            android:id="@+id/actionLayout"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginTop="8dp">
+
+            <!-- Like -->
+            <ImageView
+                android:id="@+id/likeIcon"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:padding="4dp"
+                android:src="@drawable/ic_like_outline"
+                android:contentDescription="@null"/>
+
+            <TextView
+                android:id="@+id/likeCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_0"
+                android:textColor="@color/black"
+                android:layout_marginEnd="16dp"
+                android:layout_marginStart="4dp" />
+
+            <!-- Comment -->
+            <ImageView
+                android:id="@+id/commentIcon"
+                android:layout_width="30dp"
+                android:layout_height="36dp"
+                android:src="@drawable/chat_7987366"
+                android:padding="4dp"
+                android:contentDescription="@null"/>
+
+            <!-- Edit -->
+            <ImageView
+                android:id="@+id/editPostIcon"
+                android:layout_width="30dp"
+                android:layout_height="36dp"
+                android:src="@drawable/pen_6755991"
+                android:padding="4dp"
+                android:layout_marginStart="12dp"
+                android:contentDescription="@null"/>
+
+            <!-- Delete -->
+            <ImageView
+                android:id="@+id/deletePostIcon"
+                android:layout_width="30dp"
+                android:layout_height="36dp"
+                android:src="@drawable/delete_6861362"
+                android:padding="4dp"
+                android:layout_marginStart="12dp"
+                android:contentDescription="@null"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
