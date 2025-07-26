@@ -1,7 +1,9 @@
 📱** Social Connect App**
+
 A simple social networking Android application where users can create posts, follow other users, send messages, and manage their profiles. Built using Android Studio, Kotlin, and Firebase.
 
 🚀** Features**
+
 ✅ User Authentication (Sign Up, Login, Forgot Password)
 ✅ Create, View, Edit, and Delete Posts
 ✅ Upload Images in Posts
@@ -39,6 +41,7 @@ Storage: Firebase Storage
 Authentication: Firebase Auth
 
 ⚙️ **Setup Instructions**
+
 1. Clone this Repository
    git clone: [(https://github.com/NAILAASIF/SocialConnectApp)](https://github.com/NAILAASIF/SocialConnectApp.git)
 2. Open in Android Studio
@@ -93,7 +96,6 @@ service cloud.firestore {
         allow read, write: if request.auth != null;
       }
     }
-
     //  Chats Collection
     match /chats/{chatId} {
       allow read, write: if request.auth != null;
@@ -118,11 +120,14 @@ service cloud.firestore {
 Run the app on an emulator or a physical device
 
 ▶️** Video Demonstration**
+
 [Add your demo video link here – [Google Drive or YouTube](https://drive.google.com/file/d/1MC24zA9UM5C0ox-8SKazLfvh5xrhxbV9/view?t=13)]
 
 📥 **APK Download**
+
 [Download APK](apk/app-release.apk)
 
 👩‍💻 Author
-Naila Asif
+
+->Naila Asif
 🌐 GitHub Profile:https://github.com/NAILAASIF
