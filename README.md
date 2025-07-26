@@ -19,9 +19,12 @@ A simple social networking Android application where users can create posts, fol
 SocialConnectApp/
 │
 ├── app/src/main/java/com/example/internshiptask/   # All Activities & Adapters
+
 ├── app/src/main/res/                               # Layouts & Drawables
+
 ├── screenshots/                                    # App screenshots
-└── README.md
+
+
 
 🛠 **Tech Stack**
 
