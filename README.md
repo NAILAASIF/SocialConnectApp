@@ -49,9 +49,10 @@ Authentication: Firebase Auth
 4. Connect Firebase
    Go to Tools > Firebase in Android Studio
    Connect to Firebase project
-    Enable:
-    Authentication
-    Firestore Database
+    **Enable:**
+   -> Authentication
+   ->Firestore Database
+   
   ** Firebase rules:**
    
    rules_version = '2';
